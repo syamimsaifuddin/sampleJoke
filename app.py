@@ -22,4 +22,4 @@ def index():
     img, question, answer = get_meme()
     return render_template("joke.html", img=img, question=question, answer=answer)
 
-app.run(host="0.0.0.0", port=80, debug=False)
+app.run(host="0.0.0.0", port=5000, debug=False)
